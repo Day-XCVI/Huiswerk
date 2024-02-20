@@ -38,6 +38,10 @@ td {
     text-align: center;
 }
 
+table {
+    width: 100%;
+}
+
 #cel-1 {
     background-color: #FF6347;
     /* Rood */
