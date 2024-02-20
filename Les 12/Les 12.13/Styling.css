@@ -1,0 +1,124 @@
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-weight: bolder;
+    font-family: 'Montserrat';
+}
+
+/* header h1 {
+    font-weight: bolder;
+    font-family:'Montserrat';
+} */
+
+footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h2 {
+    font-weight: 100;
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0;
+}
+
+td {
+    height: 100px;
+    width: 25%;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+#cel-1 {
+    background-color: #FF6347;
+    /* Rood */
+}
+
+#cel-2 {
+    background-color: #87CEEB;
+    /* Lichtblauw */
+}
+
+#cel-3 {
+    background-color: #32CD32;
+    /* Limegroen */
+}
+
+#cel-4 {
+    background-color: #FFD700;
+    /* Goud */
+}
+
+#cel-5 {
+    background-color: #FF69B4;
+    /* Felroze */
+}
+
+#cel-6 {
+    background-color: #9370DB;
+    /* Paars */
+}
+
+#cel-7 {
+    background-color: #00CED1;
+    /* Donker turquoise */
+}
+
+#cel-8 {
+    background-color: #8B4513;
+    /* Bruin */
+}
+
+#cel-9 {
+    background-color: #4682B4;
+    /* Staalblauw */
+}
+
+#cel-10 {
+    background-color: #FFA07A;
+    /* Lichtzalm */
+}
+
+#cel-11 {
+    background-color: #00FF7F;
+    /* Lentergroen */
+}
+
+#cel-12 {
+    background-color: #6A5ACD;
+    /* Lavendelblauw */
+}
+
+#cel-13 {
+    background-color: #FA8072;
+    /* Zalm */
+}
+
+#cel-14 {
+    background-color: #778899;
+    /* Leisteen grijs */
+}
+
+#cel-15 {
+    background-color: #FFDAB9;
+    /* Perzik */
+}
+
+#cel-16 {
+    background-color: #F0E68C;
+    /* Kaki */
+}
+
+td img {
+    width: 100%;
+    height: auto;
+}

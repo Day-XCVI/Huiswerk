@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Gezonde voeding</title>
+   </head>
+   <body>
+      <!-- Tekst -->
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices risus eu velit pulvinar mollis. Proin diam velit, faucibus vitae cursus at, malesuada sed magna. Integer sed magna eget est ornare volutpat eu vel felis. In hac habitasse platea dictumst. Pellentesque laoreet vitae metus sed iaculis. Mauris id mauris eu neque imperdiet imperdiet maximus ac arcu. Nam sed venenatis augue. Nulla nec vestibulum ligula, et pharetra nulla. Cras auctor tristique lacus, ac ultricies nulla iaculis sed. Ut convallis, est a vestibulum faucibus, lorem sapien dapibus odio, ac congue lorem nisl vitae odio. Mauris ultricies urna elit, finibus dictum eros commodo.</p>
+      <!-- Afbeeldingen -->
+      <img src="Fruit.png" alt="Fruit" width="300" height="200">
+      <img src="Groente.png" alt="Groente" width="300" height="200">
+      <img src="https://www.fit.nl/wp-content/uploads/2018/10/vlees-kanker-1.jpg" width="300" height="200">
+      <!-- Tabel -->
+      <table border="3" bordercolor="grey">
+         <!-- Tabel Head -->
+         <thead>
+            <tr>
+               <th>Groente</th>
+               <th>Fruit</th>
+               <th>Vlees</th>
+               <th>Noten</th>
+               <th>Vetten</th>
+            </tr>
+         </thead>
+         <!-- Tabel Body -->
+         <tbody>
+            <tr>
+               <td bgcolor="Green">Broccoli</td>
+               <td bgcolor="Pink">Aardbeien</td>
+               <td bgcolor="red">Mager rundergehakt</td>
+               <td bgcolor="Yellow">Amandelen</td>
+               <td bgcolor="Blue">Olijfolie</td>
+            </tr>
+            <tr>
+               <td bgcolor="Green">Doperwten</td>
+               <td bgcolor="Pink">Banaan</td>
+               <td bgcolor="red">Kip</td>
+               <td bgcolor="Yellow">Hazelnoten</td>
+               <td bgcolor="Blue">Zonnebloemolie</td>
+            </tr>
+            <tr>
+               <td bgcolor="Green">Spinazie</td>
+               <td bgcolor="Pink">Appel</td>
+               <td bgcolor="red">Speklappen</td>
+               <td bgcolor="Yellow">Cashew</td>
+               <td bgcolor="Blue">Kokosolie</td>
+            </tr>
+            <tr>
+               <td bgcolor="Green">Andijvie</td>
+               <td bgcolor="Pink">Perzik</td>
+               <td bgcolor="red">Lam</td>
+               <td bgcolor="Yellow">Walnoten</td>
+               <td bgcolor="Blue">Roomboter</td>
+            </tr>
+            <tr>
+               <td bgcolor="Green">Sperziebonen</td>
+               <td bgcolor="Pink">Bosbessen</td>
+               <td bgcolor="red">Eend</td>
+               <td bgcolor="Yellow">Pistache</td>
+               <td bgcolor="Blue">Omega 3</td>
+            </tr>
+            <tr>
+               <td bgcolor="Green">Bloemkool</td>
+               <td bgcolor="Pink">Sinaasappel</td>
+               <td bgcolor="red">Geit</td>
+               <td bgcolor="Yellow">Macadamia</td>
+               <td bgcolor="Blue">Advocado olie</td>
+            </tr>
+         </tbody>
+         <!-- Tabel Body -->
+         <tfoot>
+            <tr>
+               <td>
+                  Dit zijn voorbeelden van verschillende producten
+               </td>
+            </tr>
+         </tfoot>
+      </table>
+   </body>
+</html>

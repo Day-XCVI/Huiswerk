@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 
+            Mijn verhaal
+        </title>  
+    </head>
+    <body>
+        <h1>Mijn verhaal</h1>
+        <p>Mijn naam is Dayron Frederica. <br>
+            Ik ben 26 jaar en woon in Den Bosch. Sind 20-04-2022 ben ik <b>gelukkig</b> getrouwd en ik heb een passie voor koken en muziek maken.<br>
+        Zelf speel ik in een gospel band waarin ik graag de drums bespeel. We spelen vooral veel covers. Dit kan varieren tussen rock, pop en soul.
+        </p>
+        <p> We spelen nummers zoals:</p>
+        <ul>
+            <li>Phill Collins
+            <ul>
+            <li><i>Easy Lover</i></li>
+            </ul>
+            </li>
+            </ul>
+            <ul>
+            <li>John Mayer
+            <ul>
+            <li><em>Helpless</em></li>
+            </ul>
+            </li>
+            </ul>
+            <ul>
+            <Li>Kirk Franklin
+            <ul>
+            <li><em>Love Theory</em></li>
+            </ul>
+            </Li>
+            </ul>
+        </ul>
+        <h2>Waarom Front-End Developer?</h2>
+            <P>De reden waarom ik deze opleiding doe, is omdat ik me graag wil <strong>ontwikkelen</strong> in de IT.<br>
+                Veel vrienden van mij zijn Full-Stack developers en kunnen met heel veel plezier over hun werk praten
+            Na wat onderzoek ben ik er dus achter gekomen dan het zijn van een <U>Front-End developer</u> mij het meest aantrok. <br>
+            Zo ben ik bij het Stap-budget gekomen van NHA en wist ik dat ik hiermee gemakkelijk in eigen tijd de mogelijkheid heb om zo mezelf verder te ontwikkelen.<br>
+
+            </P>
+    </body>
+</html>

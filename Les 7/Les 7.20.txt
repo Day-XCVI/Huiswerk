@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tandartsafspraak</title>
+</head>
+
+<body>
+    <h1>Tandartsafspraak</h1>
+    <!-- Tekst -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+        ultrices risus eu velit pulvinar mollis. Proin diam velit, faucibus
+        vitae cursus at, malesuada sed magna. Integer sed magna eget est
+        ornare volutpat eu vel felis. In hac habitasse platea dictumst.
+        Pellentesque laoreet vitae metus sed iaculis. Mauris id mauris eu
+        neque imperdiet imperdiet maximus ac arcu. Nam sed venenatis augue.
+        Nulla nec vestibulum ligula, et pharetra nulla. Cras auctor
+        tristique lacus, ac ultricies nulla iaculis sed. Ut convallis, est a
+        vestibulum faucibus, lorem sapien dapibus odio, ac congue lorem nisl
+        vitae odio. Mauris ultricies urna elit, finibus dictum eros commodo.
+    </p>
+    <!-- Afbeeldingen -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_UBat1uZX3ZKz1aZ2WtFoOOO9QN_C7a4TCA&usqp=CAU"
+        width="300" height="200">
+    <img src="https://d1kw0nx8pk9xzh.cloudfront.net/0001/ad4de04a/resize-crop(w=1027;h=578):sharpen(level=0):output(format=jpeg)/up/dt/2021/01/BIN-TOP-STORY-Lage-covid-19-prevalentie-onder-tandartsen-WEB.jpg"
+        width="300" height="200">
+    <img src="https://icthealth.nl/wp-content/uploads/2022/04/tandarts--scaled.jpg" width="300" height="200">
+    <br><br>
+    <!-- Formulier -->
+    <!-- Persoonlijke gegevens -->
+    <form action="https://formspree.io/f/xrgwegnw" method="POST">
+        <fieldset>
+            <legend><b>Persoonlijke gegevens</b></legend>
+            <label for="naam">Voornaam:</label>
+            <input id="naam" type="text" name="naam" placeholder="Uw roepnaam">
+
+            <label for="naam">Achternaam:</label>
+            <input id="naam" type="text" name="naam" placeholder="Uw achternaam">
+
+            <label for="adres">Adres:</label>
+            <input type="text" id="adres" name="adres" placeholder="Uw adres">
+
+            <label>
+                Uw e-mailadres:</label>
+
+            <input type="email" name="E-mailadres" placeholder="E-mailadres">
+
+            <label for="dateofbirth">Geboortedatum:</label>
+            <input type="date" name="Geboortedatum" max="2080-12-31">
+
+        </fieldset><br>
+        <!-- Omschrijving klachten -->
+        <fieldset>
+            <legend><b>Beschrijving van klachten</b></legend>
+
+            <label>Selecteer klachten:</label>
+
+            <input type="checkbox" name="Klacht" value="Hoofdpijn"> Hoofdpijn
+            <input type="checkbox" name="Klacht" value="Koorts">
+            Koorts
+            <input type="checkbox" name="Klacht" value="Misselijkheid"> Misselijkheid
+            <input type="checkbox" name="Klacht" value="Ontstoken tandvlees">
+            Ontstoken tandvlees
+            <input type="checkbox" name="Klacht" value="Pijn bij koud">
+            Pijn bij koud
+            <input type="checkbox" name="Klacht" value="Pijn bij warm">
+            Pijn bij warm
+
+            <label> Voeg foto's toe:</label>
+            <input type="file" name="Afbeeldingen">
+
+        </fieldset><br>
+        <!-- Toelichting klachten -->
+        <fieldset>
+            <legend><b>Toelichting van de klachten</b></legend>
+
+            <textarea name="Toelichting klacht" maxlength="1500"
+                placeholder="Omschrijf uw klacht (max 1.500 tekens)"></textarea>
+
+            <label for="date">Startdatum klachten:</label>
+            <input type="date" name="Start klachten" max="2080-12-31">
+
+        </fieldset><br>
+
+        <button type="submit">Verzenden</button>
+
+    </form>
+</body>
+
+</html>
